@@ -97,3 +97,131 @@ nav{
     transform: scale(1.1);
     box-shadow: 0.2rem 0.2rem 0.3rem rgb(156, 154, 154);
 }
+
+
+/* Main */
+
+/* Contenedor de la primer pagina */
+
+.pagina-uno{
+    margin: 0rem 6rem 0rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 108em;
+    padding-bottom: 8rem;
+}
+
+/* Contenedor del sector izquierdo */
+
+.div-izquierdo{
+    width: 100%;
+    max-width: 60em;
+}
+
+/* Encabezado*/
+
+.encabezado{
+    font-size: 5.5em;
+    width: 90%;
+    padding: 6rem 0rem 1.5rem 0rem;  
+    color: #323232; 
+}
+
+/* Parrafo */
+
+.parrafo{
+    padding-bottom: 3.5rem;
+    font-size: 1.5em;
+    line-height: 2.8rem;
+    color: #6E6E6E;;
+}
+
+/* Contenedor del boton e input */
+
+.input-button{
+    padding-bottom: 3.5rem;
+    width: 100%;
+    position: relative;
+}
+
+.input-busqueda{
+    width: 100%;
+    padding: 2.3rem 4.6rem;
+    border-radius: 3rem;
+    border: none;
+    font-size: 1.18em;
+    background: url(Imagenes/search.svg), #fafafa;
+    background-repeat: no-repeat;
+    background-position: 4%;
+    background-size: 1em;
+    outline: none;
+    color: #9c9999;
+}
+
+.button-search{
+    background-color: #3952B6;
+    color: white;
+    position: absolute;
+    border-radius: 2.5rem;
+    border: none;
+    padding: 1.2rem 3.9rem ;
+    font-size: 1.4em;
+    top: 0.6em;
+    right: 0.6em;
+    cursor: pointer;
+}
+
+.button-search{
+    transition: background 0.2s, border .2s;
+}
+
+
+.input-busqueda:focus{
+    outline: 0.2em solid #6E6E6E;
+    background-image: none;
+    background-color:  #fafafa;   
+}
+
+.input-busqueda:focus::placeholder {
+    color: transparent;
+}
+
+.button-search:hover{
+    background-color: white;
+    border: 0.10rem solid #3952B6;
+    color:#3952B6;
+    font-weight: bold;
+}
+/* Contenedor de estadisticas, estadisticas y letras*/
+
+.contenedor-estadisticas{
+    display: flex;
+    gap: 4rem;
+}
+ 
+.contenedor-estadisticas h3{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #323232; 
+}
+
+.contenedor-estadisticas p{
+    font-size: 1.5em;
+    color:#6E6E6E;
+}
+
+/* Contenedor del sector derecho */
+
+.imagen-casa{
+    border-radius: 1.3rem;
+    background: url(Imagenes/Casa.jpg);
+    background-size: 118%;
+    background-position: center;
+    background-repeat: no-repeat, cover;
+    width: 38%;
+    min-height: 47.5rem;
+    margin-top: 6rem;
+}
+
+/* Fin de la primer pagina*/
