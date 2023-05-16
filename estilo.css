@@ -658,3 +658,97 @@ nav{
 }
 
 /* Fin de la paginca cinco */
+
+/* Pagina Seis */
+
+.pagina-seis{   
+    margin:0rem 6rem 0rem 6rem;
+    width: 100%;
+    max-width: 108em;
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+}
+
+/* Contenedor parrafo y encabezado*/
+
+.parrafo-encabezado-pagseis{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    width: 100%;
+    padding-bottom: 7rem;
+}
+
+.parrafo-encabezado-pagseis h3{ 
+    font-size: 3.65em;
+    max-width: 45%;
+    color: #323232;
+}
+
+.parrafo-encabezado-pagseis p{  
+    font-size: 1.5em;
+    line-height: 2.8rem;
+    color: #6E6E6E;
+    max-width: 45%;
+    margin-right: 1.3rem;
+}
+
+/* Contenedor de opiniones*/
+
+.contenedor-opiniones-pagseis{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    width: 100%;
+}
+
+.contenedor-opiniones{
+    border-radius: 1.8rem;
+    width: 23.5%;
+    padding: 2rem 0rem 2rem 1.5rem;
+    cursor: pointer;
+}
+
+.opiniones-parrafos{
+    font-size: 1.5em;
+    line-height: 2.8rem;
+    color: #6E6E6E;
+    padding-bottom: 2rem;
+    max-width: 92%;
+}
+
+.contenedor-opiniones-img-name{
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-opiniones-img-name h4{
+    font-size: 1.5em;
+    color: #323232;
+    padding-bottom: 0.8rem;
+}
+
+.contenedor-opiniones-img-name p{
+    font-size: 1.15em;
+    color: #6E6E6E;
+}
+
+.contenedor-opiniones-img-name img{
+    height: 3rem;
+}
+
+.contenedor-opiniones-img-name div{
+    padding-left: 1.2rem;   
+}
+
+.unico-parrafo-seis{
+    box-shadow: 1rem 2rem 5rem #EFEFEF;
+}
+
+.contenedor-opiniones:hover{
+    box-shadow: 1rem 2rem 5rem #EFEFEF;
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+/* Fin de la pagina seis */
