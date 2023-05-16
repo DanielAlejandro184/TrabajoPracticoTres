@@ -561,3 +561,100 @@ nav{
 }
 
 /* Fin de la pagina cuatro*/
+
+/* Quinta pagina */
+
+.pagina-cinco{
+    margin:0rem 6rem 0rem 6rem;
+    width: 100%;
+    max-width: 108em;
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+}
+
+/* Contenedor del sector izquierdo */
+
+.pagina-cinco{
+    display: flex;
+}
+
+.contenedor-interior{
+    max-width: 93%;
+    border-radius: 1.5rem;
+    padding-top: 0.2rem;
+}
+
+.contenedor-izquierdo-pagcinco{
+    
+    max-width: 51.2%;
+    padding-bottom: 1.45rem;
+    
+}
+
+.encabezado-pagcinco{
+    font-size: 3.72em;
+    padding-bottom: 2rem;
+    color: #323232;
+}
+
+.pagina-cinco p{
+    font-size: 1.45em;
+    color: #6E6E6E;
+    line-height: 2.8rem;
+}
+
+.encabezado-tilde{
+    font-size: 2.9em;
+    line-height: 1.5em;
+    color: #323232;  
+    padding-bottom: 0.35em; 
+}
+
+.contenedor-tilde-encabezado{
+    display: flex; 
+    align-items: start;
+}
+
+.contenedor-tilde-encabezado img{
+    min-height: 4em; 
+    padding-right: 1.4rem;
+    padding-left: 1.2rem;
+    color:#323232;
+}
+
+.tilde-encabezado-parrafo-pagcinco p{
+    padding-left: 6.72rem;
+}
+
+.tilde-encabezado-unico{
+    padding-bottom: 1.5rem;
+    padding-top: 5.2rem;
+    width: 100%;
+    border-radius: 1.5rem;
+    box-shadow: 2rem 9rem 10rem #EFEFEF;
+}
+
+.tilde-encabezado-modif p{  
+    width: 96.4%;
+}
+.tilde-encabezado-modif{  
+    padding-top: 2rem;
+}
+
+.tilde-encabezado-segunda-modif{
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+/* Contenedor del sector derecho*/
+
+.foto-pagcinco{
+    background-image: url(Imagenes/Casa-pagina-5.jpg);
+    width: 49%;
+    background-size: 100%;
+    background-repeat: no-repeat, cover;
+    background-position: center;
+    border-radius: 1.5rem;
+}
+
+/* Fin de la paginca cinco */
