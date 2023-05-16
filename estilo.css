@@ -225,3 +225,172 @@ nav{
 }
 
 /* Fin de la primer pagina*/
+
+
+/* Segunda pagina*/
+
+.pagina-dos{
+    margin:0rem 6rem 0rem 6rem;
+    width: 100%;
+    max-width: 108em;
+    padding-top: 8rem;
+    padding-bottom: 7.25rem;
+}
+
+/* Parrafo y encabezado */
+
+.parrafo-encabezado-pagdos{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding-bottom: 7rem;
+}
+
+.parrafo-encabezado-pagdos h3{
+    font-size: 3.65em;
+    width: 30%;
+    color: #323232;
+}
+
+.parrafo-encabezado-pagdos p{
+    font-size: 1.5em;
+    line-height: 2.8rem;
+    color: #6E6E6E;
+    width: 50%;
+    padding-right: 2em;
+}
+
+/* Contenedor de fotos y parrafos */
+
+.contenedor-fotos-parrafos-pagdos{
+    display: flex;  
+    padding-bottom: 5rem;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.precio{
+    background-color: #222430;
+    color: white;
+    position: absolute;
+     border-radius: 2.5rem;
+    border: none;
+    padding: 0.9rem 2.5rem ;
+    font-size: 1.4em;
+    cursor: pointer;
+    top:1.58rem;
+    left: 1.58rem;
+}
+
+.fotos-parrafos-pagdos{
+    position: relative;
+}
+
+.fotos-parrafos-pagdos h3{
+    font-size: 2.9em;
+    line-height: 1.5em;
+    padding-bottom: 0.45em;
+    padding-top: 1.6rem;
+    color: #323232;
+}
+
+.fotos-parrafos-pagdos p{
+    font-size: 1.45em;
+    padding-left: 0.8rem;
+    color: #6E6E6E;
+}
+
+.fotos-parrafos-pagdos div{
+    display: flex;
+}
+
+.location-img{
+    max-height: 2em;
+}
+
+.fotos-parrafos-pagdos{
+    max-width: 24%;  
+    cursor: pointer;
+}
+
+.Ataz-foto{
+    background: url(Imagenes/Ataz.jpg);
+    background-size: 133%;
+    background-repeat: no-repeat,cover;
+    background-position: center;
+    width: 100%;
+    min-height: 21.90em;
+    border-radius: 1.4em;    
+}
+
+.Qiri-foto{
+    background: url(Imagenes/Qiri.jpg);
+    background-size: 133%;
+    background-repeat: no-repeat,cover;
+    background-position: center;
+    width: 100%;
+    min-height: 21.90em;
+    border-radius: 1.4em;
+}
+
+.Qanan-foto{
+    background: url(Imagenes/Qanan.jpg);
+    background-size: 133%;
+    background-repeat: no-repeat, cover;
+    background-position: center;
+    width: 100%;
+    min-height: 21.90em;
+    border-radius: 1.4em;
+}
+
+.Tingah-foto{
+    background: url(Imagenes/Tingah.jpg);
+    background-size: 133%;
+    background-repeat: no-repeat,cover;
+    background-position: center;
+    width: 100%;
+    min-height: 21.90em;
+    border-radius: 1.4em;
+}
+
+/* Contenedor de parrafo y boton */
+
+.parrafo-boton-pagdos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotos-parrafos-pagdos:hover{
+    transform: scale3d(1.03, 1.03, 1.03);
+    transition: .5s;
+}
+
+.parrafo-boton-pagdos p{
+    font-size: 1.5em;
+    color: #6E6E6E;
+}
+
+.parrafo-boton-pagdos button{
+    background-color: white;
+    border: 0.1em solid #6E6E6E;
+    color: black;
+    border-radius: 2.5rem;
+    padding: 1.1rem 3.8rem ;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.parrafo-boton-pagdos button{
+    transition: background 0.3s, transform 0.3s;
+}
+
+.parrafo-boton-pagdos button:hover{
+    background-color: #6E6E6E;
+    color:white;
+    transform: translate(0rem , -0.2rem);
+    box-shadow: 0.2rem 0.2rem 0.3rem rgb(156, 154, 154);
+}
+
+/* Fin de la segunda pagina */
