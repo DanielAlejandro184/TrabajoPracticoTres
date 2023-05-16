@@ -450,3 +450,114 @@ nav{
 }
 
 /* Fin de la tercera pagina */
+
+/* Cuarta pagina */
+
+.pagina-cuatro{
+    margin:0rem 6rem 0rem 6rem;
+    width: 100%;
+    max-width: 108em;
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+}
+
+/* Contenedor del encabezado  y parrafo */
+
+.parrafo-encabezado-pagcuatro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5.7rem;
+}
+
+.parrafo-encabezado-pagcuatro h3{
+    font-size: 3.72em;
+    padding-bottom: 2rem;
+    color: #323232;
+    width: 100%;
+    max-width: 46%;
+}
+
+.parrafo-encabezado-pagcuatro p{
+    font-size: 1.5em;
+    line-height: 2.8rem;
+    color: #6E6E6E;
+    width: 100%;
+    max-width: 47%;
+    padding-bottom: 1rem;
+}
+
+/* Contenedor de pasos */
+
+.contenedor-pasos-pagcuatro{
+    display: flex;  
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    padding-bottom: 7.25rem;
+}
+
+.contenedores-pasos{
+    max-width: 22.95%;
+}
+
+.contenedores-pasos div{
+    background-color: #323232;
+    color:white;
+    border-radius: 3rem;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+    width: 5rem;
+    line-height: 5rem;
+}
+
+.contenedor-pasos-pagcuatro h3{
+    font-size: 2.9em;
+    line-height: 1.5em;
+    padding-bottom: 0.35em;
+    padding-top: 1.6rem;
+    color: #323232;
+}
+
+.contenedor-pasos-pagcuatro p{
+    font-size: 1.45em;
+    color: #6E6E6E;
+    line-height: 2.8rem;
+}
+
+.contenedor-parrafo-boton-pagcuatro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2.3rem;
+}
+
+.contenedor-parrafo-boton-pagcuatro p{
+    font-size: 1.5em;
+    line-height: 2.8rem;
+    color: #6E6E6E;
+}
+
+.contenedor-parrafo-boton-pagcuatro button{
+    background-color: white;
+    border: 0.1em solid #6E6E6E;
+    color: black;
+    border-radius: 2.5rem;
+    padding: 1.1rem 3.8rem ;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.contenedor-parrafo-boton-pagcuatro button{
+    transition: background 0.3s, transform 0.3s;
+}
+
+.contenedor-parrafo-boton-pagcuatro button:hover{
+    background-color: #6E6E6E;
+    color:white;
+    transform: translate(0rem , -0.2rem);
+    box-shadow: 0.2rem 0.2rem 0.3rem rgb(156, 154, 154);
+}
+
+/* Fin de la pagina cuatro*/
