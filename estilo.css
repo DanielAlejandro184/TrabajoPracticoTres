@@ -394,3 +394,59 @@ nav{
 }
 
 /* Fin de la segunda pagina */
+
+/* Tercera pagina */
+
+.pagina-tres{
+    background-color: #FAFAFA;
+    width: 100%;
+    max-width: 120rem;
+    gap:7.5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+}
+
+.pagina-tres h3{
+    font-size: 3.72em;
+    padding-bottom: 2rem;
+    color: #323232;
+}
+
+.pagina-tres p{
+    font-size: 1.5em;
+    line-height: 2.8rem;
+    color: #6E6E6E;
+}
+
+.pagina-tres div{
+    max-width: 38.7%;
+}
+
+/* Contenedor del sector izquierdo */
+
+.foto-izq{
+    width: 100%;
+    min-height: 29.3rem;
+    background: url(Imagenes/Our-Vision.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat,cover;
+    border-radius: 1.5rem;
+    margin-top: 2.3rem;
+    
+}
+
+/* Contenedor del sector derecho */
+
+.foto-der{
+    width: 100%;
+    min-height: 29.3rem;
+    background: url(Imagenes/Our-Mission.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat,cover;
+    border-radius: 1.5rem;
+    margin-bottom: 2.3rem;
+}
+
+/* Fin de la tercera pagina */
