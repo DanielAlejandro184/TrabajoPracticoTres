@@ -752,3 +752,108 @@ nav{
 }
 
 /* Fin de la pagina seis */
+
+/* Pagina Siete */
+
+.pagina-siete{   
+    margin:0rem 6rem 0rem 6rem;
+    width: 100%;
+    max-width: 108em;
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Contenedor izquierdo */
+
+.contenedor-izquierdo-pagsiete{
+    width: 40%;
+    background-image: url(Imagenes/foto-principal-pagsiete.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat, cover;
+    border-radius: 1.6rem;
+}
+
+/* Contenedor derecho*/
+
+.contenedor-derecho-pagsiete{
+    max-width: 52.5%;
+}
+.contenedor-derecho-pagsiete h3{
+    font-size: 5.2em;  
+    color: #323232;   
+    max-width: 90%; 
+    padding-bottom: 1.35rem;
+}
+
+.contenedor-derecho-pagsiete p{
+    font-size: 1.5em;
+    line-height: 2.8rem;
+    color: #6E6E6E;
+    max-width: 95%;
+    padding-bottom: 2.225rem;
+}
+
+.contenedor-derecho-pagsiete button{
+    background-color: #3952B6;
+    border: 0.15rem solid #3952B6;
+    color: white;
+    border-radius: 2.5rem;
+    padding: 1.1rem 3.8rem ;
+    font-size: 1.4em;
+    cursor: pointer;
+    margin-bottom: 2.3rem;
+}
+
+.contenedor-derecho-pagsiete button{
+    transition: background 0.4s, border 0.3s , transform 0.3s;
+}
+
+.contenedor-derecho-pagsiete button:hover{
+    background-color: white;
+    color:#3952B6;
+    font-weight: bold;
+    border: 0.15rem solid #3952B6;
+    transform: scale(1.05) ;
+    box-shadow: 0.2rem 0.2rem 0.3rem rgb(156, 154, 154);
+}
+
+.primera-foto-pagsiete{
+    background-image: url(Imagenes/foto-1.jpg);
+    width: 31.5%;
+    min-height: 17rem;
+    background-size: 100%;
+    background-repeat: no-repeat, cover;
+    background-position: center;
+    border-radius: 1.5rem;
+}
+
+.segunda-foto-pagsiete{
+    background-image: url(Imagenes/foto-2.jpg);
+    width: 31.5%;
+    min-height: 17rem;
+    background-size: 100%;
+    background-repeat: no-repeat, cover;
+    background-position: center;
+    border-radius: 1.5rem;
+}
+
+.tercera-foto-pagsiete{
+    background-image: url(Imagenes/foto-3.jpg);
+    width: 31.5%;
+    min-height: 17rem;
+    background-size: 100%;
+    background-repeat: no-repeat, cover;
+    background-position: center;
+    border-radius: 1.5rem;
+}
+
+.contenedor-fotos-pagsiete{
+    width: 100%;
+    display:flex; 
+    justify-content: space-between;
+}
+
+/* Fin de la pagina siete*/
+
