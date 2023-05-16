@@ -13,3 +13,87 @@
 :root{
     --Nunito:'Nunito', sans-serif;
 }
+
+
+/* Nav */
+
+nav{
+    font-family: var(--Nunito);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem 0rem 6rem;
+    max-width: 120rem;
+}
+
+/* Logo */
+
+.logo-encabezado{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 3em;
+}
+
+.logo-nombre{
+    font-size: 1rem;
+    padding-left: 0.6em;
+    color: #323232; 
+}
+
+/* Links */
+
+.links{
+    display: flex;
+}
+
+.links a{
+    text-decoration: none;
+    color: #6E6E6E;;
+    font-size: 1.18em;
+}
+
+.link-solo , .link-flecha{
+    margin: 0em 1.1em; 
+    transition: .5s;
+}
+
+.link-flecha{
+    padding-right: 1.1em;
+    color: #707070;
+    cursor: pointer;
+}
+
+.links a:hover , .links div:hover{
+    transform: scale(1.1);
+    text-shadow: 0.2rem 0.2rem 0.3rem #3952B6;
+}
+
+/* Boton*/
+
+.boton-quote{
+    font-size: 1.1em;
+    font-family: var(--Nunito);
+    padding: 0.6rem 2.1rem 0.6rem 2.1rem;
+    border-radius: 2em;
+    border-style: none;
+    background-color: #3952B6;
+    color: white;
+    cursor: pointer;
+    width: 11rem;
+}
+
+.boton-quote{
+    transition: background 0.8s, border .3s, transform .5s;
+}
+
+.boton-quote:hover{
+    background-color: white;
+    border: 0.15rem solid #3952B6;
+    color:#3952B6;
+    transform: scale(1.1);
+    box-shadow: 0.2rem 0.2rem 0.3rem rgb(156, 154, 154);
+}
