@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -37,6 +38,7 @@
             </div>
             <!-- Boton -->
             <button class="boton-quote">Get a Quote</button>
+            <i class="bi bi-justify menu-oculto"></i>
         </nav>
     </header>
     <!-- Main -->
@@ -114,6 +116,27 @@
                     </div>
                 </div>
             </div>
+            <!-- Oculto version 480p -->
+            <div class="contenedor-fotos-parrafos-pagdos-version-oculta">
+                <div class="fotos-parrafos-pagdos-version-oculta">
+                    <div class="precio-version-oculta">$2,800,-</div>
+                    <figure class="Ataz-foto-version-oculta"></figure>
+                    <h3>Ataz Standard House</h3>
+                    <div>
+                        <img src="Imagenes/location.svg" alt="" class="location-img"> 
+                        <p>Pluto Street, Indonesia</p>
+                    </div>
+                </div>
+                <div class="fotos-parrafos-pagdos-version-oculta">
+                    <div class="precio-version-oculta">$4,800,-</div>
+                    <figure class="Qiri-foto-version-oculta"></figure>
+                    <h3>Qiri Minimalist House</h3>
+                    <div>
+                        <img src="Imagenes/location.svg" alt="" class="location-img">
+                        <p>Jupiter Street, Indonesia</p>
+                    </div>
+                </div>
+            </div>
             <div class="parrafo-boton-pagdos">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <button>See More</button>
@@ -121,15 +144,29 @@
         </section>
         <!-- Contenedor de la tercer pagina -->
         <section class="pagina-tres">
-            <div>
+            <div class="div-on-izq">
                 <h3>Our Vision</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <figure class="foto-izq"></figure>
             </div>
-            <div>
+            <div class="tercer-pag-oculto-izq">
+                <div>
+                    <h3>Our Vision</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <figure class="foto-izq-oculto"></figure>
+            </div>
+            <div class="div-on-der">
                 <figure class="foto-der"></figure>
                 <h3>Our Mision</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="tercer-pag-oculto-der"> 
+                <figure class="foto-der-oculto"></figure>
+                <div>
+                    <h3>Our Mision</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> 
             </div>
         </section>
         <!-- Contenedor de la pagina cuatro -->
@@ -160,6 +197,36 @@
                     <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
                 </div>
             </div>
+            <div class="oculto-cuatro">
+                <div class="estructura-oculta">
+                    <div class="numero">1.</div>
+                    <div class="oculto-parrafo-encabezsado-pagcuatro">
+                        <h3>View Listing</h3>
+                        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                </div >
+                <div class="estructura-oculta">
+                    <div class="numero">2.</div>
+                    <div class="oculto-parrafo-encabezsado-pagcuatro">
+                        <h3>Contact Us</h3>
+                        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                </div >
+                <div class="estructura-oculta">
+                    <div class="numero">3.</div>
+                    <div class="oculto-parrafo-encabezsado-pagcuatro">
+                        <h3>Request a Visit</h3>
+                        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                </div>
+                <div class="estructura-oculta">
+                    <div class="numero">4.</div>
+                    <div class="oculto-parrafo-encabezsado-pagcuatro">
+                        <h3>Buy The House</h3>
+                        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    </div>
+                </div>
+            </div>
             <div class="contenedor-parrafo-boton-pagcuatro">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <button>See Our FAQ</button>
@@ -170,7 +237,7 @@
             <div class="contenedor-izquierdo-pagcinco">
                 <div class="contenedor-interior">
                     <h3 class="encabezado-pagcinco">Why Choose Us for Your House Needs? </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="parrafo-quitado">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div class="tilde-encabezado-parrafo-pagcinco tilde-encabezado-unico">
                         <div class="contenedor-tilde-encabezado">
                             <img src="Imagenes/checkmark.svg" alt="">
@@ -244,6 +311,33 @@
                     </div>
                 </div>
             </div>
+            <!-- Oculto -->
+            <div class="contenedor-oculto-pagseis">
+                <div class="opiniones-oculto-parrafo-seis">
+                    <img src="Imagenes/Shoo-Phar-Mhan.png" alt="">
+                    <div>
+                        <h4>Shoo Phar Mhan</h4>
+                        <p class="parrafo-oculto-pagseis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                        <p class="opiniones-nombre-oculto">Kang Masak</p>
+                    </div>    
+                </div>
+                <div class="opiniones-oculto-parrafo-seis">
+                    <img src="Imagenes/Shoo-Phar-Die.png" alt="">
+                    <div>    
+                        <h4>Shoo Phar Dhie</h4>
+                        <p class="parrafo-oculto-pagseis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                        <p class="opiniones-nombre-oculto">Kang Bakso</p>
+                    </div>    
+                </div>
+                <div class="opiniones-oculto-parrafo-seis opinion-hidden">
+                    <img src="Imagenes/Shoo-Ya-Thi.png" alt="">
+                    <div>
+                        <h4>Shoo Yha Thi</h4>
+                        <p class="parrafo-oculto-pagseis">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                        <p class="opiniones-nombre-oculto">Kang Ngomel</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Contenedor de la pagina siete -->
         <section class="pagina-siete">
@@ -258,8 +352,31 @@
                     <figure class="tercera-foto-pagsiete"></figure>
                 </div>   
             </div>
+            <!-- Oculto -->
+            <div class="oculto-pagsiete">
+                <div class="contenedor-fotos-izquierdo-oculto">
+                    <h3>Let's Move to Your Dream Family Home</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button>Get Quote Now</button>
+                </div>
+                <div class="contenedor-fotos-oculto-pagsiete">
+                    <figure class="primera-foto-oculta-pagsiete"></figure> 
+                    <figure class="segunda-foto-oculta-pagsiete"></figure>
+                    <figure class="tercera-foto-oculta-pagsiete"></figure>
+                </div>   
+            </div>
+            <!-- Oculto 480p -->
+            <div class="oculto-mobile">
+                <h3>Let's Move to Your Dream Family Home</h3>
+                <figure class="tercera-foto-pagsiete-oculto-mobile"></figure> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div>
+                    <button>Get Quote Now</button>
+                </div>
+            </div>
         </section>
     </main>
+    <!-- Footer -->
     <footer>
         <div class="contenedor-footer">
             <div class="contenedor-footer-encabezado-parrafo">
@@ -295,7 +412,51 @@
                 <h4 class="encabezado-footer">Newsletter</h4>
                 <input type="email" placeholder="Your Email">
                 <button>Submit</button>
+            </div> 
+        </div>
+        <!-- Oculto -->
+        <div class="contenedor-footer-oculto">
+            <div class="contenedor-footer-encabezado-parrafo-oculto">
+                <img src="Imagenes/logotp3.png" alt="">
+                <div class="footer-logo-encabezado-oculto">
+                    <h4 class="encabezado-lark">Lark Homes</h4>
+                    <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
             </div>
+            <div class="contacto-oculto-opciones">
+                <div class="contenedor-links-oculto">
+                    <h4 class="encabezado-footer-oculto">Useful Links</h4>
+                    <a href="#">Listing</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Our Team</a>
+                </div>
+                <div class="contenedor-contacto-oculto">
+                    <h4 class="encabezado-footer-oculto">Get in Touch</h4>
+                    <div class="location-imagen-oculto">
+                        <img src="Imagenes/location.svg" alt="" class="contacto-location">
+                        <p>123 Anywhere Street, Any City , 12345 ST, Indonesia</p>
+                    </div>
+                    <div class="telefono-imagen-oculto">
+                        <img src="Imagenes/phone.svg" alt="">
+                        <p>+123 456 7890</p>
+                    </div>
+                    <div class="envelope-imagen-oculto">
+                        <img src="Imagenes/envelope.svg" alt="">
+                        <p>hello@larkhomes.com</p>
+                    </div>
+                </div>
+                <div class="contenedor-email-oculto">
+                    <h4 class="encabezado-footer-oculto">Newsletter</h4>
+                    <input type="email" placeholder="Your Email">
+                    <button>Submit</button>
+                </div> 
+            </div> 
+            <div class="contenedor-email-oculto-mobile">
+                <h4 class="encabezado-footer-oculto-mobile">Newsletter</h4>
+                <input type="email" placeholder="Your Email">
+                <button>Submit</button>
+            </div> 
         </div>
     </footer>
 </body>
