@@ -1368,7 +1368,6 @@ footer{
     .tercer-pag-oculto-der div{
         width: 60%;
     }
-    /* Contenedor del sector izquierdo */
 
     .foto-izq-oculto{
         width: 40%;
@@ -1380,8 +1379,6 @@ footer{
         margin: 1rem 0rem 1rem 1rem
         
     }
-
-    /* Contenedor del sector derecho */
 
     .foto-der-oculto{
         width: 40%;
@@ -1400,7 +1397,6 @@ footer{
         margin: 0rem;
         padding: 5rem 2rem 3rem 2rem;
     }
-    /* Contenedor del encabezado  y parrafo */
 
     .parrafo-encabezado-pagcuatro{
         display: flex;
@@ -1425,8 +1421,6 @@ footer{
         max-width: 43%;
         padding-bottom: 1rem;
     }
-
-    /* Contenedor de pasos */
 
     .contenedor-pasos-pagcuatro{
         display: none;
@@ -1559,8 +1553,6 @@ footer{
         padding: 5rem 2rem 3rem 2rem; 
     }
 
-    /* Contenedor parrafo y encabezado*/
-
     .parrafo-encabezado-pagseis{
         display: block;
         justify-content: space-between;  
@@ -1582,8 +1574,6 @@ footer{
         color: #6E6E6E;
         max-width: 80%;
     }
-
-    /* Contenedor de opiniones*/
 
     .contenedor-opiniones-pagseis{
         display:none;
@@ -1992,8 +1982,6 @@ footer{
 
     /* Primera pagina */
 
-    /* Contenedor de la primer pagina */
-
     .pagina-uno{
         width: 100%;
         background-image:linear-gradient(rgba(218, 223, 223, 0.7) , rgba(227, 241, 241, 0.7)) , url(Imagenes/Casa.jpg);
@@ -2081,8 +2069,6 @@ footer{
         width: 90%;
         text-align: center;
     }
-
-    /* Fin de la primer pagina*/
 
     /* Segunda pagina*/
 
@@ -2253,7 +2239,6 @@ footer{
         margin: 0rem;
         padding: 3rem 1rem 3rem 1rem;
     }
-    /* Contenedor del encabezado  y parrafo */
 
     .parrafo-encabezado-pagcuatro{
         display: block;
@@ -2274,8 +2259,6 @@ footer{
     .parrafo-encabezado-pagcuatro p{
         display: none;
     }
-
-    /* Contenedor de pasos */
 
     .contenedor-pasos-pagcuatro{
         display: none;
@@ -2401,12 +2384,9 @@ footer{
         padding-bottom: 1.5rem;
     }
 
-    
     .tilde-encabezado-parrafo-pagcinco p{
     padding-left:0rem;
     }
-
-    /* Pagina Seis */
 
     /* Pagina seis */
 
@@ -2730,6 +2710,5 @@ footer{
     }
 
 }
-    /* Fin del footer*/
-
+    
     /* Fin de la pagina */
